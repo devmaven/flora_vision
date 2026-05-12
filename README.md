@@ -1,16 +1,68 @@
-# React + Vite
+# Flora Vision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite project for a modern plant landing page UI.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- Tailwind CSS
 
-## React Compiler
+## Clone Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/devmaven/flora_vision.git
+```
 
-## Expanding the ESLint configuration
+## Go to Project Folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd flora_vision
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run Development Server
+
+```bash
+npm run dev
+```
+
+## Build Project
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Folder Structure
+
+```bash
+src/
+│
+├── assets/
+├── components/
+├── App.jsx
+└── main.jsx
+```
+
+## Features
+
+- Responsive Navbar
+- Hero Section
+- Trending Plants
+- Top Selling Plants
+- Customer Reviews
+
+## Author
+
+Anshika Rastogi
